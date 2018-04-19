@@ -112,7 +112,7 @@ define restart_dc ## params: deploymentconfig name
 	@oc patch deploymentconfig $(1) --type json -p='[{"op": "replace", "path": "/spec/template/metadata/labels/timestamp", "value":'"'$(TIMESTAMP)'"'}]' || true
 endef
 
-OC_PROJECT_NAME?=ike-prow-plugins
+OC_PROJECT_NAME?=arquillian
 PLUGINS_CONFIG?=plugins.yaml
 .PHONY: oc-init-project
 oc-init-project: ## Initializes new project with config maps and secrets
