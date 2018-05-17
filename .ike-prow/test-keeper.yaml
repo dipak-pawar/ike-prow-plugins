@@ -1,0 +1,4 @@
+skip_validation_for:
+  - 'cluster/'
+
+plugin_hint: .ike-prow/test-keeper_hint.md
