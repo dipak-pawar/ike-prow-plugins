@@ -12,7 +12,7 @@ import (
 // PluginTitleTemplate is a constant template containing "Ike Plugins (name-of-plugin)" title with markdown formatting
 const (
 	PluginTitleTemplate     = "### Ike Plugins (%s)"
-	assigneeMentionTemplate = "Thank you @%s for this contribution!"
+	assigneeMentionTemplate = "Thank you @%s for contribution!"
 )
 
 // Hinter is a struct managing plugin comments
